@@ -190,14 +190,26 @@ section {
     text-align: center;
 }
 
+.section__text__p1:hover{
+    cursor: default;
+}
+
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 
+.section__text__p2:hover{
+    cursor: default;
+}
+
 .title {
     font-size: 3rem;
     text-align: center;
+}
+
+.title:hover{
+    cursor: default;
 }
 
 #socials-container {
