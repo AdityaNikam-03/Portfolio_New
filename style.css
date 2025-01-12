@@ -419,3 +419,23 @@ footer p {
     display: inline-block;
     vertical-align: middle;
 }
+
+#heading,#link-style{
+    display: inline-block;
+}
+
+#link-style:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+a.no-style{
+    all: unset;
+    cursor: pointer;
+}
+
+a.no-style:hover{
+    color: blue;
+    text-decoration: underline;
+}
