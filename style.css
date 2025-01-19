@@ -267,7 +267,7 @@ section {
 }
 
 .about-details-container {
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
 }
 
@@ -450,4 +450,13 @@ a.no-style{
 a.no-style:hover{
     color: blue;
     text-decoration: underline;
+}
+
+.text-container {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
